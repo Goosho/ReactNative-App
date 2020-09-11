@@ -34,7 +34,7 @@ class Dishdetail extends Component {
     }
 
     static navigationOptions = {
-        title: 'Dish Details'
+        title: 'Dish Detail'
     };
     render() {
         const dishId = this.props.navigation.getParam('dishId','');
